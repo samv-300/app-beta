@@ -3,5 +3,6 @@ create table users(
  nombre char(20) not null,
  apellido char(20), 
  telefono char(10) unique, 
- email varchar not null
+ email varchar not null,
+ password varchar(20) not null;
 );
